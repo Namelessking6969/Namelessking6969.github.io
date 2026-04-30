@@ -13,6 +13,7 @@ Welcome to Nameless Blog. I write about technology, development, and projects I'
 - **Projects**: Updates and write-ups on things I'm building
 - **Technology**: Explorations of tools, frameworks, and techniques
 - **General**: Thoughts and notes on topics I find interesting
+- **Personal**: What's going on in my mind at times.
 
 ### Getting in Touch
 
