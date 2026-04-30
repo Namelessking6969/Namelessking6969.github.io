@@ -1,0 +1,30 @@
+body {
+  background: #050505;
+  color: #33ff33;
+  font-family: "Fira Code", monospace;
+}
+
+a {
+  color: #00ff9c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 5px #00ff9c;
+}
+
+.sidebar {
+  background: #0a0a0a;
+  border-right: 1px solid #1f1f1f;
+}
+
+code, pre {
+  background: #0b0b0b;
+  color: #33ff33;
+  border: 1px solid #1a1a1a;
+}
+
+h1, h2, h3 {
+  color: #00ff9c;
+  text-transform: lowercase;
+}

@@ -1,8 +1,10 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+layout: page
+title: whoami
+permalink: /whoami/
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+system identity:
+- name: namelessking
+- role: builder / experimenter
+- status: active
