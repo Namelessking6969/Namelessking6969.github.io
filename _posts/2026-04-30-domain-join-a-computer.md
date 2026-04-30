@@ -6,8 +6,6 @@ tags: [active-directory, domain-join, windows, sysadmin]
 image: /assets/img/domain-join.svg
 ---
 
-![Domain Join Process](/assets/img/domain-join.svg)
-
 ## Overview
 
 When a computer loses its domain trust relationship or requires rejoin to the domain, follow this procedure to properly remove and rejoin the machine.
