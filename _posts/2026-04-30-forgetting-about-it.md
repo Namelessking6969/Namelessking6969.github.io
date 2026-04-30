@@ -1,8 +1,8 @@
 ---
 title: "forgetting about it"
 date: 2026-04-30
-categories: []
-tags: []
+categories: [personal]
+tags: [parent]
 ---
 
 Sometimes I'll be doing something ordinary—making coffee, hearing a song, thinking about something I want to tell her—and for a few seconds, it's like nothing ever happened. She's still here. I can call her. I can see her. Everything is fine.
