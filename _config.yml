@@ -16,10 +16,10 @@ timezone: America/Detroit # Change to your timezone › https://zones.arilyn.cc
 
 title: Nameless Blog
 
-tagline: Exploring technology, projects, ideas and Personal things
+tagline: Technology, Projects, and Random Thoughts
 
 description: >-
-  A personal blog covering technology, development, and things I'm working on.
+  A personal blog by Nameless King covering software development, tech explorations, and projects I'm building.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,11 +35,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Nameless King
-  email: # change to your email address
+  email: namelessking6969@github.io
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/Namelessking6969 # change to your GitHub homepage
+    - https://github.com/Namelessking6969 # GitHub
     # Uncomment below to add more social links
     # - https://twitter.com/username
     # - https://www.linkedin.com/in/username
@@ -98,11 +98,11 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 
+avatar: /assets/img/avatar.svg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/img/social-preview.svg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
