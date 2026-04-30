@@ -1,9 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-/* Custom styles for Nameless Blog */
+/* Custom styles for Nameless Blog - extends Chirpy theme */
 
 /* Hero section on homepage */
 .home-hero {
@@ -13,93 +11,107 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 12px;
   color: white;
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  p {
-    font-size: 1.2rem;
-    opacity: 0.9;
-  }
 }
 
-/* Custom card styles for posts */
-.post-preview {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-  }
+.home-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
 }
 
-/* Improved sidebar styling */
-#panel-wrapper {
-  .panel-heading {
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
+.home-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
 }
 
 /* Custom button styles */
 .btn-custom {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: white !important;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
   transition: opacity 0.2s ease;
-  
-  &:hover {
-    opacity: 0.9;
-    color: white;
-  }
+}
+
+.btn-custom:hover {
+  opacity: 0.9;
+  color: white !important;
+  text-decoration: none;
 }
 
 /* Project cards */
 .project-card {
-  border: 1px solid var(--border-color);
+  border: 1px solid #dee2e6;
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  transition: border-color 0.2s ease;
-  
-  &:hover {
-    border-color: #667eea;
-  }
-  
-  h3 {
-    margin-top: 0;
-  }
-  
-  .project-tags {
-    margin-top: 1rem;
-    
-    .tag {
-      display: inline-block;
-      background: var(--tag-bg);
-      padding: 0.25rem 0.75rem;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      margin-right: 0.5rem;
-    }
-  }
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: white;
+}
+
+[data-theme="dark"] .project-card {
+  border-color: #3e3e3e;
+  background: #2a2a2a;
+}
+
+.project-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #2a2a2a;
+}
+
+[data-theme="dark"] .project-card h3 {
+  color: #e0e0e0;
+}
+
+.project-tags {
+  margin-top: 1rem;
+}
+
+.project-tags .tag {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+  color: #555;
+}
+
+[data-theme="dark"] .project-tags .tag {
+  background: #3e3e3e;
+  color: #ccc;
 }
 
 /* Avatar animation */
-#avatar {
+#avatar img {
   transition: transform 0.3s ease;
-  
-  &:hover {
-    transform: scale(1.05);
-  }
+}
+
+#avatar:hover img {
+  transform: scale(1.05);
+}
+
+/* Post card hover effect */
+.post-preview {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-preview:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
 
 /* Better code block styling */
 .highlight {
   border-radius: 8px;
+  overflow: hidden;
 }
