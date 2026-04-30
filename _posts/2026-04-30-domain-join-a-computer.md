@@ -1,7 +1,7 @@
 ---
 title: "How to Rejoin a Computer to a Domain"
 date: 2026-04-30
-categories: [technology]
+categories: [work]
 tags: [active-directory, domain-join, windows, sysadmin]
 ---
 
