@@ -1,39 +1,59 @@
-# Chirpy Starter
+# Nameless Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+A personal blog powered by [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy), a minimal and responsive Jekyll theme.
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+## Getting Started
 
-## Why This Starter Exists
+### Prerequisites
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+- Ruby >= 2.7
+- Bundler
+- Node.js >= 16
 
-To unlock all features, the following files must be present in your Jekyll site:
+### Running Locally
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+1. Install dependencies:
+
+   ```shell
+   bundle install
+   ```
+
+2. Start the development server:
+
+   ```shell
+   bundle exec jekyll serve
+   ```
+
+3. Open `http://localhost:4000` in your browser.
+
+## Writing Posts
+
+New posts go in the `_posts/` directory using the naming convention:
+
+```
+YYYY-MM-DD-title.md
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+Each post should include front matter at the top:
 
-## Usage
+```yaml
+---
+title: "Post Title"
+date: 2026-01-01
+categories: [category]
+tags: [tag1, tag2]
+---
+```
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## Configuration
 
-## Contributing
+Site-wide settings are in `_config.yml`. Key options to customize:
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+- `title` and `tagline`
+- `url` and `social` links
+- `comments` and `analytics` providers
+- `theme_mode` (light/dark)
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+MIT
