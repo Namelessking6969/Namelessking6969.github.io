@@ -3,27 +3,61 @@ layout: page
 title: root
 ---
 
-<div class="terminal">
-<pre>
-$ whoami
-namelessking
-
-$ system status
-online
-
-$ ls /
-projects  logs  notes  about
-
-$ cat welcome.txt
-welcome to the system.
-everything here is experimental.
-
-$ _
-</pre>
+<div id="terminal">
+  <pre id="output"></pre>
+  <div class="line">
+    <span class="prompt">$</span>
+    <input id="input" autofocus autocomplete="off" />
+  </div>
 </div>
 
 <script>
-console.log("%cSYSTEM ONLINE", "color: #00ff9c; font-size: 20px;");
-console.log("user: namelessking");
-console.log("mode: experimental");
+const output = document.getElementById("output");
+const input = document.getElementById("input");
+
+const commands = {
+  help: `
+available commands:
+- help
+- whoami
+- projects
+- logs
+- clear
+  `,
+  whoami: `
+name: namelessking
+role: builder / experimenter
+status: online
+  `,
+  projects: `
+- github.io site
+- terminal interface (this)
+- experimental builds
+  `,
+  logs: `
+[2026-04-30] system migrated
+[2026-04-30] terminal interface enabled
+  `
+};
+
+function write(text) {
+  output.textContent += text + "\n";
+}
+
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    const cmd = input.value.trim();
+    write("$ " + cmd);
+
+    if (cmd === "clear") {
+      output.textContent = "";
+    } else if (commands[cmd]) {
+      write(commands[cmd]);
+    } else {
+      write("command not found: " + cmd);
+    }
+
+    input.value = "";
+  }
+});
 </script>
