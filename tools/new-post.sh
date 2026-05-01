@@ -42,6 +42,8 @@ slugify() {
 
 title="$1"
 date="$(date +%Y-%m-%d)"
+time="$(date +%H:%M:%S)"
+datetime="${date} ${time}"
 slug="$(slugify "$title")"
 filename="${POSTS_DIR}/${date}-${slug}.md"
 
@@ -58,7 +60,7 @@ mkdir -p "$POSTS_DIR"
 cat > "$filename" <<EOF
 ---
 title: "${title}"
-date: ${date}
+date: ${datetime}
 categories: []
 tags: []
 ---
