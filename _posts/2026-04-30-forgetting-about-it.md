@@ -1,5 +1,5 @@
 ---
-title: "forgetting about it"
+title: "Forgetting About It"
 date: 2026-04-30
 categories: [personal]
 tags: [parent]
