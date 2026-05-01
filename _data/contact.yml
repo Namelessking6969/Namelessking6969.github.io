@@ -2,20 +2,19 @@
 
 - type: github
   icon: "fab fa-github"
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
+#  url: "https://twitter.com/namelessking"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-  url: "https://twitter.com/namelessking"
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
+#  url: "mailto:namelessking6969@example.com"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-  url: "mailto:namelessking6969@example.com"
+#- type: linkedin
+#  icon: 'fab fa-linkedin'
+#  url: 'https://www.linkedin.com/in/namelessking'
 
-- type: linkedin
-  icon: 'fab fa-linkedin'
-  url: 'https://www.linkedin.com/in/namelessking'
-
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
