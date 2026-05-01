@@ -32,15 +32,6 @@ Here are some of the projects I've been working on:
 
 ### 📚 Completed Projects
 
-<div class="project-card">
-  <h3>Domain Join Automation</h3>
-  <p>Automated script to join computers to a Windows domain, reducing setup time and ensuring consistency.</p>
-  <div class="project-tags">
-    <span class="tag">PowerShell</span>
-    <span class="tag">Automation</span>
-    <span class="tag">Windows</span>
-  </div>
-</div>
 
 ### 💡 Ideas & Experiments
 
