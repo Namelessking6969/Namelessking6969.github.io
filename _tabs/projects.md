@@ -40,7 +40,6 @@ Here are some of the projects I've been working on:
     <span class="tag">Automation</span>
     <span class="tag">Windows</span>
   </div>
-  <p><a href="/posts/domain-join-a-computer/">Read more →</a></p>
 </div>
 
 ### 💡 Ideas & Experiments
