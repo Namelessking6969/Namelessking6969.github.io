@@ -6,7 +6,7 @@ order: 4
 
 ## About
 
-Welcome to Nameless Blog. I write about personal things,technology, development, and projects I'm working on.
+Welcome to Nameless Blog. I write about personal things, technology, development, and projects I'm working on.
 
 ### What to Expect
 
