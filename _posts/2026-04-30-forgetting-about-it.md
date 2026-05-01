@@ -1,6 +1,6 @@
 ---
 title: "Forgetting About It"
-date: 2026-04-30
+date: 2026-04-30 09:47:12
 categories: [personal]
 tags: [parent]
 image: assets/img/forgetting-about-it.svg
