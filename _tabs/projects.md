@@ -8,6 +8,26 @@ order: 5
 
 Here are some of the projects I've been working on:
 
+<div class="project-card">
+  <h3>Network Redesign</h3>
+  <p>A complete overhaul of my network with improved design, better UX, and custom theme.</p>
+  <div class="project-tags">
+    <span class="tag">Network</span>
+    <span class="tag">Infrastructure</span>
+    <span class="tag">Home-Life</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3>Recipe App</h3>
+  <p>An application that my wife can add recipes so she don't have to read through the nonsense</p>
+  <div class="project-tags">
+    <span class="tag">Java</span>
+    <span class="tag">Gradle</span>
+    <span class="tag">React</span>
+  </div>
+</div>
+
 ### 🚀 Current Projects
 
 <div class="project-card">
