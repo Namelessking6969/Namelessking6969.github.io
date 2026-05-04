@@ -1,8 +1,8 @@
 ---
 title: "Life is never ending cycle"
 date: 2026-05-04 14:26:06
-categories: []
-tags: []
+categories: [personal]
+tags: [life, cycle]
 image: /assets/img/cycle.svg
 ---
 
