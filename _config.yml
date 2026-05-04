@@ -40,9 +40,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/Namelessking6969 # GitHub
-    # Uncomment below to add more social links
+    # Add more social links below
     # - https://twitter.com/username
     # - https://www.linkedin.com/in/username
+    # - https://mastodon.social/@username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -99,6 +100,12 @@ cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/avatar.svg
+
+# Favicon settings
+favicon: /favicon.ico
+
+# Apple Touch Icon
+apple_touch_icon: /apple-touch-icon.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

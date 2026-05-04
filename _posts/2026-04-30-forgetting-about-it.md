@@ -4,6 +4,7 @@ date: 2026-04-30 09:47:12
 categories: [personal]
 tags: [parent]
 image: assets/img/forgetting-about-it.svg
+excerpt: "Grief doesn't fade with time—it teaches you how to carry it differently. Some days the weight is manageable, others it hits all over again."
 ---
 
 Sometimes I'll be doing something ordinary—making coffee, hearing a song, thinking about something I want to tell her—and for a few seconds, it's like nothing ever happened. She's still here. I can call her. I can see her. Everything is fine.
