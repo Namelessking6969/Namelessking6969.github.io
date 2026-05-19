@@ -67,15 +67,6 @@ Here are some of the projects I've been working on:
 
 ### 💡 Ideas & Experiments
 
-<div class="project-card">
-  <h3>AI-Powered Tools</h3>
-  <p>Exploring ways to integrate AI into daily workflows, from code assistance to content generation.</p>
-  <div class="project-tags">
-    <span class="tag">AI</span>
-    <span class="tag">Python</span>
-    <span class="tag">API</span>
-  </div>
-</div>
 
 ---
 
