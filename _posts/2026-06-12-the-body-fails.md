@@ -3,6 +3,7 @@ title: "The body fails"
 date: 2026-06-12 14:15:22
 categories: [personal]
 tags: [thoughts, feelings, life]
+image: /assets/img/the-body-fails.svg
 excerpt: "He's falling apart. He keeps going anyway."
 ---
 
