@@ -21,7 +21,7 @@ Some days just getting up is the failure. Not that he doesn't — he does, every
 
 But then there are the kids.
 
-They don't know what it costs. They don't need to. That's the whole point — they're kids, they're supposed to exist without the weight of his body's failures landing on them. So he keeps it separate. He's learned to laugh when his side is killing him. He's learned to sit on the floor and play when everything in him wants to lie still. He makes breakfast and asks about their day and shows up to the things he said he'd show up to. He doesn't make his pain their problem. That's the job.
+They don't know what it costs. They don't need to. That's the whole point — they're kids, they're supposed to exist without the weight of his body's failures landing on them. So he keeps it separate. He's learned to laugh when his side is killing him. He's learned to drag himself outside when everything in him wants to lie still. He asks about their day and shows up to the things he said he'd show up to. He doesn't make his pain their problem. That's the job.
 
 And so he keeps moving. In that quiet, stubborn way he has — not with any particular grace or strength, just with the simple decision to keep going because there are people who need him to. The kids don't need a hero. They just need him there. Present. Trying. Breathing.
 
