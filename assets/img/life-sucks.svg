@@ -1,12 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a252f;stop-opacity:1" />
-    </linearGradient>
+    <radialGradient id="bg" cx="45%" cy="55%" r="72%">
+      <stop offset="0%" stop-color="#0d0d1c"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="ambient" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
   </defs>
-  <rect width="800" height="400" rx="12" fill="url(#grad)"/>
-  <text x="400" y="180" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">Life Sucks</text>
-  <text x="400" y="240" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle">When everything goes wrong</text>
-  <text x="400" y="300" font-family="Arial, sans-serif" font-size="60" text-anchor="middle">😤</text>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+
+  <!-- Ambient glow pooling beneath figure -->
+  <ellipse cx="400" cy="320" rx="210" ry="130" fill="#101028" filter="url(#ambient)" opacity="0.85"/>
+
+  <!-- Thought loops — spiraling outward from above the head -->
+  <!-- Each ring slightly offset inward to suggest orbital drift -->
+  <g filter="url(#glow)">
+    <ellipse cx="399" cy="172" rx="30"  ry="20"  fill="none" stroke="#5858a8" stroke-width="2.6" opacity="0.94"/>
+    <ellipse cx="397" cy="164" rx="56"  ry="38"  fill="none" stroke="#52529e" stroke-width="2.3" opacity="0.87"/>
+    <ellipse cx="395" cy="155" rx="86"  ry="58"  fill="none" stroke="#4c4c94" stroke-width="2.1" opacity="0.79"/>
+    <ellipse cx="392" cy="144" rx="120" ry="80"  fill="none" stroke="#46468a" stroke-width="1.9" opacity="0.70"/>
+    <ellipse cx="389" cy="133" rx="158" ry="104" fill="none" stroke="#404080" stroke-width="1.7" opacity="0.61"/>
+    <ellipse cx="386" cy="121" rx="200" ry="130" fill="none" stroke="#3a3a76" stroke-width="1.5" opacity="0.52"/>
+    <ellipse cx="383" cy="108" rx="246" ry="158" fill="none" stroke="#34346c" stroke-width="1.3" opacity="0.43"/>
+    <ellipse cx="380" cy="095" rx="296" ry="188" fill="none" stroke="#2e2e62" stroke-width="1.1" opacity="0.34"/>
+    <ellipse cx="377" cy="082" rx="350" ry="220" fill="none" stroke="#282858" stroke-width="1.0" opacity="0.25"/>
+  </g>
+
+  <!-- Figure — hunched person sitting with knees pulled up -->
+
+  <!-- Head, bowed forward -->
+  <circle cx="400" cy="218" r="37" fill="#1e1e30"/>
+
+  <!-- Torso — spine curves forward, body closes at floor level -->
+  <path d="M 371 248
+           C 346 290 332 340 337 382
+           L 463 382
+           C 468 340 454 290 429 248 Z"
+        fill="#1e1e30"/>
+
+  <!-- Knees pulled to chest -->
+  <ellipse cx="400" cy="328" rx="56" ry="44" fill="#1e1e30"/>
+
+  <!-- Left arm wrapping around knees -->
+  <path d="M 346 276 C 318 316 320 354 337 382"
+        fill="none" stroke="#1e1e30" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- Right arm wrapping around knees -->
+  <path d="M 454 276 C 482 316 480 354 463 382"
+        fill="none" stroke="#1e1e30" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- Floor line -->
+  <line x1="0" y1="382" x2="800" y2="382" stroke="#181830" stroke-width="1" opacity="0.6"/>
+
+  <!-- Shadow under figure -->
+  <ellipse cx="400" cy="385" rx="78" ry="6" fill="#020206" opacity="0.85"/>
+
+  <!-- Atmospheric particles — dust, weight, stillness -->
+  <g fill="#242448">
+    <circle cx="88"  cy="48"  r="2.2" opacity="0.55"/>
+    <circle cx="210" cy="22"  r="1.6" opacity="0.48"/>
+    <circle cx="158" cy="138" r="2.5" opacity="0.52"/>
+    <circle cx="52"  cy="238" r="2.0" opacity="0.48"/>
+    <circle cx="130" cy="322" r="1.6" opacity="0.44"/>
+    <circle cx="248" cy="368" r="2.0" opacity="0.50"/>
+    <circle cx="560" cy="368" r="1.6" opacity="0.50"/>
+    <circle cx="674" cy="36"  r="1.6" opacity="0.48"/>
+    <circle cx="748" cy="152" r="2.0" opacity="0.52"/>
+    <circle cx="716" cy="282" r="2.5" opacity="0.50"/>
+    <circle cx="644" cy="364" r="2.0" opacity="0.44"/>
+    <circle cx="78"  cy="368" r="1.4" opacity="0.42"/>
+    <circle cx="728" cy="368" r="1.4" opacity="0.42"/>
+  </g>
+
+  <!-- Slightly brighter accent dots -->
+  <g fill="#363660" opacity="0.65">
+    <circle cx="182" cy="78"  r="1.4"/>
+    <circle cx="618" cy="104" r="1.4"/>
+    <circle cx="72"  cy="355" r="1.1"/>
+    <circle cx="734" cy="350" r="1.1"/>
+    <circle cx="400" cy="48"  r="1.2"/>
+  </g>
 </svg>
