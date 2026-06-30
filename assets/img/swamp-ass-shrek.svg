@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Sky -->
+  <rect width="600" height="400" fill="#f5c842"/>
+
+  <!-- Sun -->
+  <circle cx="520" cy="60" r="45" fill="#ff8c00"/>
+  <!-- Sun rays -->
+  <g stroke="#ff8c00" stroke-width="4" stroke-linecap="round">
+    <line x1="520" y1="5" x2="520" y2="-5"/>
+    <line x1="520" y1="115" x2="520" y2="125"/>
+    <line x1="465" y1="60" x2="455" y2="60"/>
+    <line x1="575" y1="60" x2="585" y2="60"/>
+    <line x1="481" y1="21" x2="474" y2="14"/>
+    <line x1="559" y1="99" x2="566" y2="106"/>
+    <line x1="559" y1="21" x2="566" y2="14"/>
+    <line x1="481" y1="99" x2="474" y2="106"/>
+  </g>
+
+  <!-- "FEELS LIKE 200°F" label -->
+  <text x="430" y="145" font-family="Georgia, serif" font-size="13" fill="#cc4400" font-weight="bold" text-anchor="middle">FEELS LIKE 200°F</text>
+
+  <!-- Swamp water -->
+  <ellipse cx="300" cy="340" rx="280" ry="80" fill="#4a7c3f"/>
+  <ellipse cx="300" cy="335" rx="270" ry="68" fill="#5a9e50"/>
+  <!-- Water shimmer -->
+  <ellipse cx="210" cy="330" rx="60" ry="12" fill="#6ab860" opacity="0.5"/>
+  <ellipse cx="380" cy="345" rx="50" ry="10" fill="#6ab860" opacity="0.5"/>
+
+  <!-- Swamp mud/ground -->
+  <ellipse cx="300" cy="370" rx="280" ry="40" fill="#3d6e2a"/>
+
+  <!-- Cattails left -->
+  <line x1="80" y1="370" x2="80" y2="220" stroke="#5c3d1e" stroke-width="4"/>
+  <ellipse cx="80" cy="215" rx="8" ry="22" fill="#7a5230"/>
+  <line x1="110" y1="370" x2="110" y2="235" stroke="#5c3d1e" stroke-width="4"/>
+  <ellipse cx="110" cy="230" rx="7" ry="20" fill="#7a5230"/>
+  <line x1="55" y1="370" x2="55" y2="245" stroke="#5c3d1e" stroke-width="3"/>
+  <ellipse cx="55" cy="241" rx="6" ry="18" fill="#7a5230"/>
+
+  <!-- Cattails right -->
+  <line x1="500" y1="370" x2="500" y2="225" stroke="#5c3d1e" stroke-width="4"/>
+  <ellipse cx="500" cy="220" rx="8" ry="22" fill="#7a5230"/>
+  <line x1="530" y1="370" x2="530" y2="240" stroke="#5c3d1e" stroke-width="4"/>
+  <ellipse cx="530" cy="235" rx="7" ry="20" fill="#7a5230"/>
+
+  <!-- Shrek body (sitting in swamp) -->
+  <!-- Torso -->
+  <ellipse cx="300" cy="280" rx="70" ry="80" fill="#7cb956"/>
+  <!-- Head -->
+  <ellipse cx="300" cy="180" rx="60" ry="65" fill="#7cb956"/>
+
+  <!-- Ears (Shrek's round ogre ears) -->
+  <ellipse cx="245" cy="175" rx="16" ry="12" fill="#7cb956"/>
+  <ellipse cx="355" cy="175" rx="16" ry="12" fill="#7cb956"/>
+
+  <!-- Eyes -->
+  <ellipse cx="282" cy="172" rx="14" ry="12" fill="white"/>
+  <ellipse cx="318" cy="172" rx="14" ry="12" fill="white"/>
+  <circle cx="285" cy="174" r="7" fill="#3d2b00"/>
+  <circle cx="321" cy="174" r="7" fill="#3d2b00"/>
+  <!-- Pupils -->
+  <circle cx="287" cy="174" r="3" fill="black"/>
+  <circle cx="323" cy="174" r="3" fill="black"/>
+  <!-- Eye shine -->
+  <circle cx="289" cy="172" r="1.5" fill="white"/>
+  <circle cx="325" cy="172" r="1.5" fill="white"/>
+
+  <!-- Eyebrows (grumpy/content) -->
+  <path d="M272 160 Q282 155 292 160" stroke="#4a7a30" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M308 160 Q318 155 328 160" stroke="#4a7a30" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <ellipse cx="300" cy="188" rx="14" ry="10" fill="#6aaa45"/>
+  <circle cx="294" cy="191" r="5" fill="#4a8a30"/>
+  <circle cx="306" cy="191" r="5" fill="#4a8a30"/>
+
+  <!-- Mouth - content smile -->
+  <path d="M278 208 Q300 222 322 208" stroke="#4a7a30" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Arms in water -->
+  <ellipse cx="220" cy="310" rx="28" ry="18" fill="#7cb956"/>
+  <ellipse cx="380" cy="310" rx="28" ry="18" fill="#7cb956"/>
+
+  <!-- Steam lines from below water (swamp ass) -->
+  <g stroke="#ccffcc" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.85">
+    <path d="M275 355 Q271 345 275 335 Q279 325 275 315"/>
+    <path d="M290 358 Q286 347 290 336 Q294 325 290 314"/>
+    <path d="M305 358 Q309 347 305 336 Q301 325 305 314"/>
+    <path d="M320 355 Q324 344 320 333 Q316 322 320 312"/>
+  </g>
+
+  <!-- Flies buzzing (classic swamp detail) -->
+  <g fill="#222" font-size="11">
+    <text x="155" y="295">~</text>
+    <text x="148" y="288">•</text>
+    <text x="435" y="300">~</text>
+    <text x="442" y="293">•</text>
+  </g>
+
+  <!-- Speech bubble -->
+  <rect x="330" y="60" width="220" height="80" rx="16" ry="16" fill="white" stroke="#4a7a30" stroke-width="2.5"/>
+  <polygon points="345,140 360,140 350,158" fill="white" stroke="#4a7a30" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="346,139 359,139 350,156" fill="white"/>
+  <text x="440" y="92" font-family="Georgia, serif" font-size="14" fill="#2d5a1b" text-anchor="middle" font-style="italic">"This is fine."</text>
+  <text x="440" y="115" font-family="Georgia, serif" font-size="12" fill="#555" text-anchor="middle">— man, fully at peace</text>
+  <text x="440" y="132" font-family="Georgia, serif" font-size="12" fill="#555" text-anchor="middle">in his own swamp</text>
+
+  <!-- Title text at bottom -->
+  <rect x="0" y="385" width="600" height="15" fill="#2d5a1b"/>
+  <text x="300" y="396" font-family="Georgia, serif" font-size="11" fill="#ccffcc" text-anchor="middle">Shrek was right all along.</text>
+</svg>
