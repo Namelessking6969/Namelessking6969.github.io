@@ -3,6 +3,7 @@ title: "AutoPilot"
 date: 2026-08-14 08:54:18
 categories: [personal]
 tags: [thoughts, feelings, life]
+image: /assets/img/autopilot.svg
 excerpt: "I get up, I move, I answer when spoken to. I just don't know who's driving anymore."
 ---
 
